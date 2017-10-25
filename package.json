@@ -1,0 +1,24 @@
+{
+  "name": "git-demo",
+  "version": "1.0.0",
+  "description": "this is a demo for git and node test",
+  "main": "index.html",
+  "scripts": {
+  	"start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BhartiyaR/nodejsdemo.git"
+  },
+  "author": "Bhartiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BhartiyaR/nodejsdemo/issues"
+  },
+  "homepage": "https://github.com/BhartiyaR/nodejsdemo#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
